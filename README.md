@@ -23,8 +23,8 @@ var url = 'http://www.imdb.com/title/tt0133093/'
 
 The following can replace lines 13 through 16 in server.js
 
-var json = {title: "", release: ""}
-var releaseYear = $("#titleYear").children()[0].children[0].data
-var movieTitle = $(".title_wrapper").children()[0].children[0].data
-json.release = releaseYear
-json.title = movieTitle
+var json = {title: "", release: ""};
+var releaseYear = $("#titleYear").children()[0].children[0].data;
+var movieTitle = $(".title_wrapper").children()[0].children[0].data;
+json.release = releaseYear;
+json.title = movieTitle;
