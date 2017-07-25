@@ -1,0 +1,9 @@
+{
+  "main"         : "server.js",
+  "author"       : "David Dame-Boyle",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}
